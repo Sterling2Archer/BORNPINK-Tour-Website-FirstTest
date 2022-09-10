@@ -33,6 +33,7 @@ function Navbar() {
                 <center> MAIN MENU <i class='fab fa-typo3' /></center>
                 <center><img src="./images2/aHR0cHM6Ly9zLmlzYW5vb2suY29tL2pvLzAvdWQvNDg5LzI0NDg0MTMvYmxhY2twaW5rYm9ybnBpbmt3b3JsZHRvdS5qcGc=-4.jpg" alt="BLACKPINK"/></center>
                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+               <video src='./videos/tourmessage.mp4' autoPlay loop muted />
             </Link>
 
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -40,9 +41,7 @@ function Navbar() {
                 <img src="./images2/unknown2.png" alt="BLACKPINK"/>
                <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </Link>
-           
-        
-
+          
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
@@ -75,5 +74,3 @@ function Navbar() {
 );
 }
 export default Navbar;
-
-
